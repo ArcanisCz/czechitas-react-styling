@@ -1,4 +1,5 @@
 import React from "react";
+import "./Input.css";
 
 export const Input = ({text = "input text", error = false}) => {
   if(error){

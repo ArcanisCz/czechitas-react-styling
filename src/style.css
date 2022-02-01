@@ -30,14 +30,6 @@ header {
 
 .layout {
   display: grid;
-  grid-template-columns: 200px min-;
+  grid-template-columns: 200px min-content;
   grid-column-gap: 20px;
-}
-
-.button {
-  border: 1px solid blue;
-}
-
-.error {
-  border: 1px solid red
 }
