@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import {Button} from "./components/Button";
 import './style.css';
 
 const App = () => (
@@ -10,6 +11,7 @@ const App = () => (
     </header>
     <main>
       <p>Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>.</p>
+      <Button />
     </main>
     <footer>
       <p>Czechitas, Digitální akademie: Web</p>
