@@ -9,6 +9,7 @@
 import {Button, Input} from "./components/plain-components";
 // import {Button, Input} from "./components/css-modules-components";
 // import {Button, Input} from "./components/styled-components-components";
+//  import {Button, Input} from "./components/scss-modules-components";
 ```
 
 ## components/plain-components
@@ -32,3 +33,8 @@ V `Input.jsx` taktéž použita utilita https://github.com/JedWatson/classnames#
 Komponenty nastylované pomocí Styled Components. 
 - Co to je? https://styled-components.com/docs/basics#getting-started
 - Nějaký článek https://medium.com/swlh/intro-to-styled-components-d97e4bf96598
+
+## components/scss-module-components
+Komponenty nastylované pomocí kombinace SASS + CSS Modules
+- https://sass-lang.com/
+- přidáno do webpacku pomocí https://webpack.js.org/loaders/sass-loader/

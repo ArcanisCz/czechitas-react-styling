@@ -1,0 +1,14 @@
+@import "theme";
+
+.input {
+    font-weight: bold;
+    border: 2px solid $border-color;
+
+    &.error {
+        border: 2px solid $error-color;
+    }
+
+    &.success {
+        border: 2px solid green;
+    }
+}

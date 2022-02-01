@@ -1,0 +1,9 @@
+@import "theme";
+
+.button {
+    border: 2px solid $border-color;
+
+    &.error {
+        color: $error-color;
+    }
+}

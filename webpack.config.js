@@ -49,6 +49,21 @@ module.exports = {
         exclude: /\.module\.css$/,
       },
       {
+        test: /\.scss$/,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1,
+              modules: true,
+            },
+          },
+          "sass-loader",
+        ],
+        include: /\.module\.scss$/,
+      },
+      {
         test: /\.(png|jpe?g|svg|gif)$/,
         use: [
           {
