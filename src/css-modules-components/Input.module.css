@@ -1,7 +1,7 @@
-.Input-input {
+.input {
     border: 2px solid blue;
 }
 
-.Input-error {
+.error {
     border: 2px solid red;
 }
