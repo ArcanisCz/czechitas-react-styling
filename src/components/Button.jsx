@@ -6,8 +6,8 @@ import styles from "./Button.module.css";
 //     <button className={styles.pokus}>aaa</button>
 // )
 
-export const Button = () => (
-  <StyledButton >aaa</StyledButton>
+export const Button = ({text = "aaa"}) => (
+  <StyledButton>{text}</StyledButton>
 )
 
 const StyledButton = styled.button`
