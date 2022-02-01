@@ -1,9 +1,10 @@
 import React from "react";
+import styled from "styled-components";
 
-export const Input = ({text = "input text", error = false}) => {
-  if(error){
-    return <input className="input error" value={text} />
-  }
-
-  return <input className="input" value={text} />
+export const Input = ({text = "input text", color = "#fffa12"}) => {
+  return <StyledInput value={text} borderColor={color} />
 }
+
+const StyledInput = styled.input`
+  border: ${({borderColor}) => `2px solid ${borderColor}`};
+`;

@@ -1,10 +1,11 @@
 import React from "react";
+import classnames from "classnames";
 import css from "./Input.module.css";
 
-export const Input = ({text = "input text", error = false}) => {
-  if(error){
-    return <input className={`${css.input} ${css.error}`} value={text} />
-  }
-
-  return <input className={`${css.input}`} value={text} />
+export const Input = ({text = "input text", color = "#fffa12"}) => {
+  return <input 
+  className={classnames(css.input)} 
+  style={{border: "1px solid "+color}} 
+  value={text}
+   />
 }

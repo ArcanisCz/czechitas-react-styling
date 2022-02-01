@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Button, Input } from "./css-modules-components";
+import { Button, Input } from "./styled-components-components";
 import './style.css';
 
 const App = () => (
@@ -12,7 +12,7 @@ const App = () => (
     <main>
       <p>Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>.</p>
       <div class="layout">
-        <Input error={true} />
+        <Input success={true} color="green" />
         <Button error={true} />
       </div>
     </main>
