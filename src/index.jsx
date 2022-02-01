@@ -1,29 +1,27 @@
 import React from 'react';
 import { render } from 'react-dom';
-import styled from "styled-components";
-import {Button} from "./components/Button";
+import { Button, Input } from "./plain-components";
 import './style.css';
+
+console.log(Button);
 
 const App = () => (
   <div className="container">
     <header>
       <div className="logo"></div>
-      <Title>Webová aplikace</Title>
+      <h1>Webová aplikace</h1>
     </header>
     <main>
       <p>Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>.</p>
-      <Button />
+      <div class="layout">
+        <Input />
+        <Button />
+      </div>
     </main>
     <footer>
       <p>Czechitas, Digitální akademie: Web</p>
     </footer>
   </div>
 );
-
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
-`;
 
 render(<App />, document.querySelector('#app'));

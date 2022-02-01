@@ -27,3 +27,17 @@ header {
   background-image: url(./img/rocket.svg);
   background-size: contain;
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: 200px min-;
+  grid-column-gap: 20px;
+}
+
+.button {
+  border: 1px solid blue;
+}
+
+.error {
+  border: 1px solid red
+}
