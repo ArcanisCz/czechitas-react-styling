@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from './Button';
+import { Button as ButtonComponent } from './Button';
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,13 +8,13 @@ export default {
   * to learn how to generate automatic titles
   */
   title: 'Button',
-  component: Button,
+  component: ButtonComponent,
 };
 
 //👇 We create a “template” of how args map to rendering
 const Template = (args) => <Button {...args} />;
 
-export const DefaultButton = {
+export const Button = {
   args: {
     text: "abx",
     error: false,

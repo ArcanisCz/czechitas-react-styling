@@ -1,5 +1,5 @@
 import React from "react";
-import { Input } from './Input';
+import { Input as InputComponent } from './Input';
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,13 +8,13 @@ export default {
   * to learn how to generate automatic titles
   */
   title: 'Input',
-  component: Input,
+  component: InputComponent,
 };
 
 //👇 We create a “template” of how args map to rendering
 const Template = (args) => <Input {...args} />;
 
-export const DefaultInput = {
+export const Input = {
   args: {
     text: "abx",
     error: false,
