@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Button, Input } from "./styled-components-components";
+import { Button, Input } from "./plain-components";
 import './style.css';
 
 const App = () => (

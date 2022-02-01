@@ -1,7 +1,7 @@
 .Input-input {
-    border: 2px solid blue;
+    border: var(--border-thickness) solid var(--aaa);
 }
 
 .Input-error {
-    border: 2px solid red;
+    border: var(--border-thickness) solid red;
 }
