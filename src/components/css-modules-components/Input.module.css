@@ -1,10 +1,6 @@
-:global {
-            --aaa: brown;
-
-}
-
 .input {
-    border: 2px solid var(--aaa);
+    font-weight: bold;
+    border: 2px solid blue;
 }
 
 .error {

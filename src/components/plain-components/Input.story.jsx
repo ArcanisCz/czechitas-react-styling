@@ -1,3 +1,4 @@
+import React from "react";
 import { Input } from './Input';
 
 //👇 This default export determines where your story goes in the story list

@@ -1,7 +1,0 @@
-.Input-input {
-    border: var(--border-thickness) solid var(--aaa);
-}
-
-.Input-error {
-    border: var(--border-thickness) solid red;
-}

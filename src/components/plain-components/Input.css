@@ -1,8 +1,8 @@
 .Input-input {
+    font-weight: bold;
     border: 2px solid blue;
 }
 
 .Input-error {
     border: 2px solid red;
-    background: yellow;
 }

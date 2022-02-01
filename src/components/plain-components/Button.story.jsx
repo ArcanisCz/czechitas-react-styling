@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from './Button';
 
 //👇 This default export determines where your story goes in the story list
@@ -15,6 +16,7 @@ const Template = (args) => <Button {...args} />;
 
 export const DefaultButton = {
   args: {
-    text: "abx"
+    text: "abx",
+    error: false,
   },
 };
