@@ -1,10 +1,9 @@
 # Materiály k bonusové lekci - stylování v reactu
 
 ## Použití
-`npm install` (to už víme, že? ;) )
-`npm start`
- 
-poté v souboru index.jsx si můžeme hrát s implementací Button a Input pomocí různých metod
+- `npm install` (to už víme, že? ;) )
+- `npm start`
+- poté v souboru index.jsx si můžeme hrát s implementací Button a Input pomocí různých metod
 
 ```
 import {Button, Input} from "./components/plain-components";
